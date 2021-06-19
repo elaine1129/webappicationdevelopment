@@ -94,7 +94,7 @@
 
 ### Authors 
 
-* Elaine Low Jing Yi
+* Elaine Low Jing Yi (Leader)
 * Low Ee Lyne
 * Low Jia Wei
 * Wong Yuk Han
