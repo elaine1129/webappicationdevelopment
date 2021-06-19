@@ -19,7 +19,7 @@
   This is a group assignments that aims to learn, understand and apply:
 
   * HTML, CSS, JS, PHP, MySQL
-* Web server setup
+  * Web server setup
   * Full stack development
 
   ### Project Description
