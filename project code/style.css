@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+*
+{
+    padding:0;
+    margin:0;
+    
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    
+}
+
+
+/*FAQ page*/
+#main
+{
+    margin-bottom: 200px;
+}
+
+#main .top{
+    text-align: center;
+    margin:10px auto 50px;
+}
+
+#main .top h1 {
+    font-family: Georgia;
+    height: 50px;
+    line-height: 50px;
+    font-size:30px;
+}
+
+#main .top h2 {
+    font-family: Georgia;
+    height: 50px;
+    line-height: 50px;
+    font-size:20px;
+}
+
+#main .category ul {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+
+}
+
+#main .category li {
+    display:inline-block; 
+    width:300px;
+}
+
+#main .category li a {
+    display: block;
+    color: rgb(0,32,96);
+    padding: 20px 22px;
+    text-align: center;
+    text-decoration: none;
+    border:2px solid black;
+    background-color: rgb(59,241,255);
+}
+
+#main .category li a:hover {
+    background-color: rgba(255, 255, 1, 0.822);
+    color: rgb(0,0,0);
+    border-radius: 30px;
+}
+
+#main .box
+{
+    border: 1px solid #FF9900;
+    border-radius: 20px;
+    margin: 30px 300px 50px 300px;
+    padding: 0px 80px 30px 80px;
+    text-align: center;
+}
+
+#main .category2 h4
+{
+    font-family: monospace;
+    font-size: 1.15em;
+    background-color: rgba(255, 255, 1, 0.692);
+    color: #000;
+    height: 30px;
+    line-height: 30px;
+    width: 150px;
+    border-radius: 0 30px;
+    padding: 10px 30px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+
+#main .collapsible {
+    background-color: #ffff93ad;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: Georgia;
+    border:1px solid rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+
+#main .active,
+#main .collapsible:hover {
+    background-color: #BFBFBF;
+    color: white
+}
+
+#main .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    width: 95%;
+    background-color: #ffffff;
+    transition: max-height 0.2s;
+    border: 1px solid black;
+    margin-left: 10px;
+    height:auto;
+    text-align: justify;
+}
+
+#main .content p
+{
+    margin:50px auto;
+}
+
+/*aboutuspage*/
+#main .aboutus {
+    text-align: center;
+}
+
+#main .aboutus h1 {
+   
+    font-family: Georgia;
+    margin:15px auto 0px;
+    height:50px;
+    line-height:50px;
+    font-size: 30px;
+}
+
+#main .aboutus h4 
+{
+    font-size: 25px;
+    color: rgb(59,241,255);
+    font-family: "Playfair Display";
+    margin-bottom: 20px;
+}
+
+#main .aboutus ul {
+    list-style: radio;
+    font-family: 'Segoe UI';
+}
+
+#main .aboutus .ourstory,#main .aboutus  .mission,#main .aboutus  .whyus{
+    box-shadow: 0 0 4px 0 #FF9900;
+    padding:50px;
+    border-radius: 30px;
+    margin: 100px 400px;
+}
+
+#main .aboutus p{
+    font-family: "DM Sans";
+}
+
+#main .aboutus .contact  a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color :rgba(3, 3, 117, 0.781);
+}
+
+#main .aboutus .contact a:hover {
+    font-family: Georgia;
+    color: rgb(228, 30, 15);
+    text-shadow: 0 0 2px #fffb00;
+}
+
+.contact {
+    font-size: 20px;
+}
+
+
+/*Contact us*/
+#main .contact_form {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+#main .contact_form .contactdetail h3,
+#main .contact_form .contactdetail p {
+    padding: 0;
+}
+
+#main .contact_form .contactdetail h3 {
+    text-align: center;
+    color: cyan;
+}
+
+#main .contact_form .form1 button[type=Submit] {
+
+    background-color: rgb(255, 255, 0);
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 12px 30px;
+    float:center;
+
+}
+
+#main .contact_form .form1 {
+
+    border-style: solid;
+    padding: 50px 10px 50px 10px;
+    height: 400px;
+    width: 600px;
+    margin: 30px auto 100px;
+    border-color: #FF9900;
+    border-radius: 20px;
+    
+}
+
+#main .contact_form .form h1 {
+   
+    font-family: Georgia;
+    margin:100px auto 0px;
+    height:50px;
+    line-height:50px;
+    font-size: 30px;
+}
+
+#main .contact_form .form1 button {
+    margin:20px auto;
+}
+
+#main .col-25 {
+    float: left;
+    text-align: right;
+    width: 200px;
+    margin:10px 10px 10px 0px;
+}
+
+#main .col-75 {
+    float: left;
+    width: 350px;
+    margin: 10px 10px 10px 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*side navigation push*/
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+ .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+     margin-left: 50px;
+}
+
+ @media screen and (max-height: 450px) {
+     .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Concert One',serif;
+    font-size:20px;
+}
+        
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+ }
+ 
+
+/*shopping cart*/
+.sc,
+.confirmOrder 
+{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+      
+}
+
+.sc table {
+    border-collapse: collapse;
+    font-family: 'Calibri';
+    width: 100%;
+    text-align: center;
+}
+
+.sc table th {
+    line-height: 32.5px;
+    font-size:20px;
+}
+
+.sc table td {
+    padding: 30px 0px;
+}
+
+.sc table tr th:first-child,
+.sc table tr td:first-child {
+    text-align: left;
+}
+
+.sc table tr td .name {
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.sc table tr td a {
+    text-decoration: none;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 3px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    border-radius: 3px;
+        
+}
+
+.sc table tr td input[type=submit],
+.confirmOrder input[type=submit] {
+    background: black;
+    color: white;
+    padding: 3px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.sc table tr td a:hover,
+.sc table tr td input[type=submit]:hover,
+.confirmOrder input[type=submit]:hover{
+    background: lightgreen;
+}
+
+ .sc .remove
+{
+    margin:10px;
+    padding:3px;
+    border-radius:50px;
+}
+
+.sc .remove:hover 
+{
+    background:rgba(255,0,0,0.23);
+    border-radius:5px;
+}
+
+.cartBox{
+    border: 1px solid red;
+    background: rgba(255,0,0,0.09);
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+#main .confirmOrder {
+    width: 450px;
+    box-shadow: 0 0 3px 0 rgb(255, 189, 189);
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 100px auto 200px;
+    text-align: center;
+}
+
+#main .confirmOrder form:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main .confirmOrder h1 {
+    font-family: Georgia;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#main .confirmOrder table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI';
+}
+
+
+#main .confirmOrder td:first-child {
+    text-align: right;
+    padding: 5px 0px;
+}
+
+#main .confirmOrder td:last-child {
+    text-align: left;
+    padding: 5px 0px;
+}
+
+#main .confirmOrder td:last-child input,
+#main .confirmOrder td textarea {
+    margin: 5px;
+}
+ 
+/*Admin add shoe*/
+.add_shoe {
+    width: 600px;
+    box-shadow: 0 0 3px 0 rgb(255, 189, 189);
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 100px auto 200px;
+    text-align: center;
+}
+
+.add_shoe table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman';
+}
+
+.add_shoe td {
+    text-align: left;
+    padding: 5px 0px;
+    width: 450px;
+}
+
+.add_shoe td:first-child {
+    text-align: right;
+}
+
+.add_shoe input {
+    margin: 3px;
+}
+
+.add_shoe input[type=submit] {
+    background: black;
+    color: white;
+    margin: 3px;
+    padding: 3px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.add_shoe input[type=submit]:hover {
+    background: lightgreen;
+
+}
+
+/*Admin contact*/
+#main .enquiry_ur,
+#main .enquiry_rr 
+{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+      
+}
+
+#main .admin_contact table {
+
+    margin:20px auto;
+    border-collapse: collapse;
+    font-family: 'Open Sans';
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 0px 38px 2px rgba(89,233,235,0.59);
+-webkit-box-shadow: 1px 0px 38px 2px rgba(89,233,235,0.59);
+-moz-box-shadow: 1px 0px 38px 2px rgba(89,233,235,0.59);
+    
+}
+
+#main .admin_contact table thead tr
+{
+    height: 60px;
+    background: #36304a;
+    border-radius:10px 10px 0px 0px;
+    
+}
+#main .admin_contact table th {
+
+    font-size: 18px;
+    color: #fff;
+    line-height: 37.5px;
+    font-weight: unset;
+}
+
+#main .admin_contact table tbody tr{
+    color: #808080;
+    background-color:RGBA(255,255,255,1);
+
+}
+
+#main .admin_contact table td {
+
+    padding:8px;
+    border:1px solid RGBA(0,1,0,0.15);
+    min-width:30px;
+    max-width:100px;
+    text-align: center;
+    word-wrap:break-word;
+}
+
+#main .admin_contact table tbody tr:nth-child(even) {
+    background-color: RGBA(245,245,245,1);
+}
+
+#main .admin_contact table tbody tr:hover {
+  color: RGB(85,85,85);
+  background-color: RGB(245,245,245);
+  cursor: pointer;
+}
+
+
+#main .admin_contact .remove
+{
+    margin:10px;
+    padding:3px;
+    border-radius:50px;
+}
+
+#main .admin_contact .remove:hover 
+{
+    background:rgba(255,0,0,0.23);
+    border-radius:5px;
+}
+
+/*can reuse */
+.cartBox{
+    border: 1px solid red;
+    background: rgba(255,0,0,0.09);
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+#main .enquiry_ur h1,#main .enquiry_rr h1  {
+    font-family: Georgia;
+    height: 50px;
+    line-height: 50px;
+    font-size:30px;
+    margin-top:30px;
+    text-align:center;
+}
+
+
+/*Admin delete shoe*/
+  
+.delete_shoe {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+.delete_shoe table {
+
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Open Sans';
+    text-align: center;
+    box-shadow: 1px 0px 38px 2px rgba(89, 233, 235, 0.59);
+    -webkit-box-shadow: 1px 0px 38px 2px rgba(89, 233, 235, 0.59);
+    -moz-box-shadow: 1px 0px 38px 2px rgba(89, 233, 235, 0.59);
+
+}
+
+.delete_shoe table thead tr {
+    height: 60px;
+    background: #36304a;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.delete_shoe table th {
+
+    font-size: 18px;
+    color: #fff;
+    line-height: 37.5px;
+    font-weight: unset;
+}
+
+.delete_shoe table tbody tr {
+    color: #808080;
+    background-color: RGBA(255, 255, 255, 1);
+}
+
+.delete_shoe table td {
+    padding: 8px;
+    border: 1px solid RGBA(0, 1, 0, 0.15);
+    min-width: 30px;
+    max-width: 100px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.delete_shoe table tbody tr:nth-child(even) {
+    background-color: RGBA(245, 245, 245, 1);
+}
+
+.delete_shoe table tbody tr:hover {
+    color: RGB(85, 85, 85);
+    background-color: RGB(245, 245, 245);
+    cursor: pointer;
+}
+
+.delete_shoe table a {
+    color: red;
+    text-decoration: none;
+}
+
+.delete_shoe table a:hover {
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px rgba(238, 40, 40, 0.65);
+
+}
+
+/*Admin faq*/
+/*except the first others can join with admin_contact style */
+#main .admin_faq
+{
+    margin: auto;
+    width: 75%;
+    padding: 10px;     
+}
+
+#main .admin_faq .table {
+margin:20px auto;
+border-collapse: collapse;
+font-family: 'Open Sans';
+width: 100%;
+text-align: center;
+border:1px solid black;
+
+}
+#main .admin_faq .table thead tr
+{
+    height: 60px;
+    background: #36304a;
+    border-radius:10px 10px 0px 0px;
+}
+#main .admin_faq .table th {
+
+font-size: 18px;
+color: #fff;
+line-height: 37.5px;
+font-weight: unset;
+}   
+#main .admin_faq .table tbody tr{
+    color: #808080;
+    background-color:RGBA(255,255,255,1);
+
+}
+#main .admin_faq .table td {
+
+padding:8px;
+border:1px solid RGBA(0,1,0,0.15);
+min-width:30px;
+max-width:100px;
+text-align: center;
+word-wrap:break-word;
+}
+#main .admin_faq .table tbody tr:nth-child(even) {
+    background-color: RGBA(245,245,245,1);
+}
+#main .admin_faq .table tbody tr:hover {
+  color: RGB(85,85,85);
+  background-color: RGB(245,245,245);
+  cursor: pointer;
+}
+#main .admin_faq .remove
+{
+    margin:10px;
+    padding:3px;
+    border-radius:50px;
+}
+
+#main .admin_faq .remove:hover 
+{
+    background:rgba(255,0,0,0.23);
+    border-radius:5px;
+}
+
+
+/**insert and update almost follow admin cart confirmorder box */
+#main .admin_faq .insert, #main .admin_faq .update{
+    width: 600px;
+    box-shadow: 0 0 3px 0 rgb(255, 189, 189);
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 100px auto 200px;
+    text-align:center;
+}
+
+#main .admin_faq .insert form:after,#main .admin_faq .update form:after  {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main .admin_faq h1 {
+    font-family: Georgia;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#main .admin_faq .insert table,#main .admin_faq .update table {
+    border-collapse: collapse;
+    margin: 0px auto 50px;
+    font-family: 'Segoe UI';
+  
+}
+
+#main .admin_faq .insert td:first-child,#main .admin_faq .update td:first-child {
+    text-align: right;
+    padding: 5px 0px;
+}
+
+#main .admin_faq .insert td:last-child, #main .admin_faq .update td:last-child {
+    text-align: left;
+    padding: 5px 0px;
+}
+
+
+#main .admin_faq .insert input[type=submit],#main .admin_faq .update input[type=submit]
+{
+    background: black;
+    color: white;
+    margin:3px;
+    padding: 3px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#main .admin_faq .insert input[type=submit]:hover,#main .admin_faq .update input[type=submit]:hover{
+    background: lightgreen;
+}
+
+/*Admin update shoe*/
+.update_shoe {
+    width: 600px;
+    box-shadow: 0 0 3px 0 rgb(207, 189, 255);
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto 300px;
+    text-align: center;
+}
+
+.update_shoe h3 {
+
+    text-decoration: underline;
+    margin: 30px auto 10px;
+}
+
+.update_title {
+    text-align: center;
+}
+
+.update_shoe input[type=submit] {
+    background: black;
+    color: white;
+    margin: 3px;
+    padding: 3px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.update_shoe input[type=submit]:hover {
+    background: lightgreen;
+
+}
