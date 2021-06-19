@@ -31,61 +31,61 @@
 
   ### Screenshots
 
-  ![image-20210620001327062](../../../AppData/Roaming/Typora/typora-user-images/image-20210620001327062.png)
+  ![image-20210620001327062](Screenshots/login)
 
-  ![image-20210620001355797](../../../AppData/Roaming/Typora/typora-user-images/image-20210620001355797.png)
-
-  
+  ![image-20210620001355797](Screenshots/login.jpg)
 
   
 
-  ![image-20210620001427036](../../../AppData/Roaming/Typora/typora-user-images/image-20210620001427036.png)
+  
 
-  ![image-20210620001450310](../../../AppData/Roaming/Typora/typora-user-images/image-20210620001450310.png)
+  ![image-20210620001427036](Screenshots/home.png)
 
-  ![image-20210620001522552](../../../AppData/Roaming/Typora/typora-user-images/image-20210620001522552.png)
+  ![image-20210620001450310](Screenshots/shop.png)
 
-  ![image-20210620001737132](../../../AppData/Roaming/Typora/typora-user-images/image-20210620001737132.png)
+  ![image-20210620001522552](Screenshots/blog.png)
 
-  ![image-20210620001824307](../../../AppData/Roaming/Typora/typora-user-images/image-20210620001824307.png)
+  ![image-20210620001737132](Screenshots/postblog.png)
 
-  ![image-20210620001848972](../../../AppData/Roaming/Typora/typora-user-images/image-20210620001848972.png)
+  ![image-20210620001824307](Screenshots/faq.png)
+
+  ![image-20210620001848972](Screenshots/aboutus.png)
 
   
 
-  ![image-20210620001921586](../../../AppData/Roaming/Typora/typora-user-images/image-20210620001921586.png)
+  ![image-20210620001921586](Screenshots/contactus.png)
 
   
 
   #### Admin View
 
-  ![image-20210620002007348](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002007348.png)
+  ![image-20210620002007348](Screenshots/adminlogin.png)
 
-  ![image-20210620002406773](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002406773.png)
+  ![image-20210620002406773](Screenshots/adminhome.png)
 
-  ![image-20210620002203394](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002203394.png)
+  ![image-20210620002203394](Screenshots/adminaddshoe.png)
 
-  ![image-20210620002252235](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002252235.png)
+  ![image-20210620002252235](Screenshots/admindeleteshoe.png)
 
-  ![image-20210620002313165](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002313165.png)
+  ![image-20210620002313165](Screenshots/adminupdate.png)
 
-  ![image-20210620002421776](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002421776.png)
-
-  
-
-  ![image-20210620002449863](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002449863.png)
-
-  ![image-20210620002506581](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002506581.png)
+  ![image-20210620002421776](Screenshots/adminshop.png)
 
   
 
-  ![image-20210620002529114](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002529114.png)
+  ![image-20210620002449863](Screenshots/adminfaq.png)
 
-  ![image-20210620002549174](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002549174.png)
+  ![image-20210620002506581](Screenshots/admineditfaq.png)
+
+  
+
+  ![image-20210620002529114](Screenshots/admincontact.png)
+
+  ![image-20210620002549174](Screenshots/adminreplyenquiry.png)
 
   #### Manish Design
 
-  ![image-20210620002714126](../../../AppData/Roaming/Typora/typora-user-images/image-20210620002714126.png)
+  ![image-20210620002714126](Screenshots/mainshview.png)
 
   
 
