@@ -35,23 +35,20 @@
 
   ![image-20210620001355797](Screenshots/login.jpg)
 
-  
-
-  
 
   ![image-20210620001427036](Screenshots/home.png)
 
   ![image-20210620001450310](Screenshots/shop.png)
+  
 
   ![image-20210620001522552](Screenshots/blog.png)
 
   ![image-20210620001737132](Screenshots/postblog.png)
+  
 
   ![image-20210620001824307](Screenshots/faq.png)
 
   ![image-20210620001848972](Screenshots/aboutus.png)
-
-  
 
   ![image-20210620001921586](Screenshots/contactus.png)
 
@@ -60,6 +57,7 @@
   #### Admin View
 
   ![image-20210620002007348](Screenshots/adminlogin.png)
+  
 
   ![image-20210620002406773](Screenshots/adminhome.png)
 
