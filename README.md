@@ -19,6 +19,7 @@
   This is a group assignments that aims to learn, understand and apply:
 
   * HTML, CSS, JS, PHP, MySQL
+  
 * Web server setup
   * Full stack development
 
@@ -29,19 +30,22 @@
   This development must include:
   
 * development of dynamic webpages using event driven clients-sides scripts (HTML, CSS, and JavaScript)
+  
   * Types of users: Admin, Member, and Guest
+  
 * Member: view, buy and discounts
+  
   * Admin: add, delete, and edit data
+  
 * Guest: can only view website data
   * Manish and Womanish Design
   
   ### Screenshots
   
-  ![image-20210620001327062](Screenshots/login)
+  ![login](Screenshots/login.jpg)
   
-  ![image-20210620001355797](Screenshots/login.jpg)
-
-
+    ![signup](Screenshots/signup.jpg)
+  
   ![image-20210620001427036](Screenshots/home.png)
 
   ![image-20210620001450310](Screenshots/shop.png)
